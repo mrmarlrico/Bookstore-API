@@ -41,7 +41,6 @@
 
 5. Retrieving a specific book by ID
 
-   - On Linux/Ubuntu terminal use this code
    - On your web browser type "http://localhost:8000/books/{bookid}
    - Replace {bookid} with bookid that needs to be retrieved
 
