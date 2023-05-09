@@ -3,6 +3,7 @@
 ## Members
 
 - Marl Rico - mrmarlrico@csu.fullerton.edu
+- Kenn Son - kenneki@csu.fullerton.edu
 
 ## Project Description
 
