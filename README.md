@@ -63,7 +63,7 @@
    - curl -X DELETE http://localhost:8000/books/{book_id}
    - Replace {bookid} with bookid that needs to be deleted
 
-8. ## Searching for books by title, author, and price range
+8. Searching for books by title, author, and price range
 
    - On Linux/Ubuntu terminal use this code
    - curl "http://localhost:8000/search?title=Title&author=Author&min_price=10&max_price=50"
