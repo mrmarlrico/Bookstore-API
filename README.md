@@ -7,7 +7,7 @@
 
 ## Project Description
 
-<!-- Add stuff here -->
+This program is an online bookstore API that allows users to view, search, and purchase books. This is with the help of FastAPI and MongoDB. This program has features such as the display of top 5 selling books or top 5 authors with the most books in the store. All books are indexed for the MongoDB collection to optimize query performance. This program will allow you to search books by title, author, and price range.
 
 ## Project Requirements
 
