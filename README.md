@@ -67,3 +67,5 @@ This program is an online bookstore API that allows users to view, search, and p
 
    - On Linux/Ubuntu terminal use this code
    - curl "http://localhost:8000/search?title=Title&author=Author&min_price=10&max_price=50"
+   - Or on your web browser type "http://localhost:8000/search?title=Title&author=Author&min_price=10&max_price=50"
+   - Replace the values inside the curly braces and remove the curly braces "title={Title}", "author={Author}", "min_price={10}", "max_price={50}"
