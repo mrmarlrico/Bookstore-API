@@ -24,8 +24,9 @@ This program is an online bookstore API that allows users to view, search, and p
 ## How To Use
 
 1. Run MongoDB
-2. Run the app "python run.py"
-3. Adding new book to the store
+2. Activate virtual environment "source env/bin/activate"
+3. Run the app "python run.py"
+4. Adding new book to the store
 
    - On Linux/Ubuntu terminal use this code
    - "curl -X POST -H "Content-Type: application/json" -d '{
@@ -36,16 +37,16 @@ This program is an online bookstore API that allows users to view, search, and p
      "stock": 75
      }' http://localhost:8000/books"
 
-4. Retrieving a list of all books in the store
+5. Retrieving a list of all books in the store
 
    - On your web browser type "http://localhost:8000/books"
 
-5. Retrieving a specific book by ID
+6. Retrieving a specific book by ID
 
    - On your web browser type "http://localhost:8000/books/{bookid}
    - Replace {bookid} with bookid that needs to be retrieved
 
-6. Updating an existing book by ID
+7. Updating an existing book by ID
 
    - On Linux/Ubuntu terminal use this code
    - curl -X PUT -H "Content-Type: application/json" -d '{
@@ -57,15 +58,27 @@ This program is an online bookstore API that allows users to view, search, and p
      }' http://localhost:8000/books/{book_id}
    - Replace {bookid} with bookid that needs to be updated
 
-7. Deleting a book from the store by ID
+8. Deleting a book from the store by ID
 
    - On Linux/Ubuntu terminal use this code
    - curl -X DELETE http://localhost:8000/books/{book_id}
    - Replace {bookid} with bookid that needs to be deleted
 
-8. Searching for books by title, author, and price range
+9. Searching for books by title, author, and price range
 
    - On Linux/Ubuntu terminal use this code
    - curl "http://localhost:8000/search?title=Title&author=Author&min_price=10&max_price=50"
    - Or on your web browser type "http://localhost:8000/search?title=Title&author=Author&min_price=10&max_price=50"
    - Replace the values inside the curly braces and remove the curly braces "title={Title}", "author={Author}", "min_price={10}", "max_price={50}"
+
+10. The total number of books in the store
+
+    - On your web browser type "http://localhost:8000/total_books"
+
+11. The top 5 bestselling books
+
+    - On your web browser type "http://localhost:8000/top_5_bestselling_books"
+
+12. The top 5 authors with the most books in the store
+
+    - On your web browser type "http://localhost:8000/top_5_authors"
